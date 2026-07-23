@@ -1,8 +1,31 @@
 aid: alif-semiconductor
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alif-semiconductor.png
 name: Alif Semiconductor
-description: Alif Semiconductor is a company surfaced as a portfolio company of lightspeed-venture-partners,
-  mayfield and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting
-  the enrichment pipeline.
+description: >-
+  Alif Semiconductor is a fabless semiconductor company headquartered in Pleasanton,
+  California with engineering operations in Grenoble, France. It designs secure,
+  AI/ML-enabled 32-bit microcontrollers and fusion processors for edge computing,
+  built around Arm Cortex-M55 cores and dedicated Arm Ethos-U55 Neural Processing
+  Units. Its Ensemble (E1C, E1, E3, E4, E5, E6, E7, E8) and Balletto (B1) product
+  families target battery-powered edge AI and generative-AI workloads, pairing
+  hardware AI acceleration with autonomous aiPM power management and a multilayered
+  hardware Root of Trust security subsystem. Alif ships an embedded developer surface
+  rather than a public web API: a Zephyr-based SDK, CMSIS Device Family Packs,
+  VS Code project templates, the Conductor configuration tool, evaluation kits,
+  datasheets, and reference manuals published across its support hub and GitHub
+  organization. Added to the API Evangelist network as a portfolio company of
+  Lightspeed Venture Partners and Mayfield.
 url: https://raw.githubusercontent.com/api-evangelist/alif-semiconductor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +39,15 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Semiconductors
+- Microcontrollers
+- Edge AI
+- Machine Learning
+- Embedded Systems
+- IoT
+- Hardware
+- Arm Cortex-M55
+- Neural Processing Unit
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +55,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/alif-semiconductor-domain-security.yml
+- type: WellKnown
+  url: well-known/alif-semiconductor-well-known.yml
+- type: LLMsTxt
+  url: llms/alif-semiconductor-llms.txt
 - type: Website
   url: https://alifsemi.com
+- type: GitHubOrganization
+  url: https://github.com/alifsemi
+- type: Documentation
+  url: https://alifsemi.com/support/reference-manuals/view-all/
+- type: Support
+  url: https://alifsemi.com/support/technical-support/
+- type: Blog
+  url: https://alifsemi.com/blog/
+- type: Login
+  url: https://alifsemi.com/account/
+- type: TermsOfService
+  url: https://alifsemi.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://alifsemi.com/privacypolicy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

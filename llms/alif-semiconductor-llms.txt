@@ -1,0 +1,34 @@
+# Alif Semiconductor
+
+> Fabless semiconductor company (Pleasanton, CA; Grenoble, France) designing secure, AI/ML-enabled 32-bit microcontrollers and fusion processors for edge computing. Products pair Arm Cortex-M55 cores with dedicated Arm Ethos-U55 NPUs for hardware-accelerated on-device AI, autonomous aiPM power management, and a multilayered hardware Root of Trust. Alif publishes an embedded developer surface (SDK, CMSIS packs, reference manuals, tools) rather than a public web API.
+
+## Products
+
+- [Ensemble family](https://alifsemi.com/products/ensemble/): E1C, E1, E3, E4, E5, E6, E7, E8 — Edge AI and Edge AI + Gen AI microcontrollers/fusion processors
+- [Balletto family](https://alifsemi.com/products/balletto/): B1 — Edge AI + wireless microcontroller
+
+## Developer Resources
+
+- [GitHub organization (alifsemi)](https://github.com/alifsemi): 61+ repos including the Zephyr SDK (sdk-alif), CMSIS Device Family Packs, VS Code templates, and Linux/Zephyr ports
+- [Reference manuals](https://alifsemi.com/support/reference-manuals/view-all/)
+- [Datasheets](https://alifsemi.com/support/datasheets/view-all/)
+- [Software & tools](https://alifsemi.com/support/software-tools/view-all/)
+- [Application notes & user guides](https://alifsemi.com/support/application-notes-user-guides/view-all/)
+- [Conductor configuration tool](https://conductor.alifsemi.com)
+- [Evaluation kits](https://alifsemi.com/support/kits/)
+
+## Support
+
+- [Technical support](https://alifsemi.com/support/technical-support/)
+- [FAQs](https://alifsemi.com/support/faqs/)
+- [Blog](https://alifsemi.com/blog/)
+- [Account portal](https://alifsemi.com/account/)
+
+## Legal
+
+- [Terms of use](https://alifsemi.com/terms-of-use/)
+- [Privacy policy](https://alifsemi.com/privacypolicy/)
+
+## Notes
+
+- No public web API, OpenAPI/AsyncAPI specification, `/.well-known/` discovery surface, or `security.txt` is published. Alif's developer surface is embedded firmware/SDK tooling, not a hosted API.
