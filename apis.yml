@@ -23,20 +23,15 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alif-semiconductor.png
 name: Alif Semiconductor
-description: >-
-  Alif Semiconductor is a fabless semiconductor company headquartered in Pleasanton,
-  California with engineering operations in Grenoble, France. It designs secure,
-  AI/ML-enabled 32-bit microcontrollers and fusion processors for edge computing,
-  built around Arm Cortex-M55 cores and dedicated Arm Ethos-U55 Neural Processing
-  Units. Its Ensemble (E1C, E1, E3, E4, E5, E6, E7, E8) and Balletto (B1) product
-  families target battery-powered edge AI and generative-AI workloads, pairing
-  hardware AI acceleration with autonomous aiPM power management and a multilayered
-  hardware Root of Trust security subsystem. Alif ships an embedded developer surface
-  rather than a public web API: a Zephyr-based SDK, CMSIS Device Family Packs,
-  VS Code project templates, the Conductor configuration tool, evaluation kits,
-  datasheets, and reference manuals published across its support hub and GitHub
-  organization. Added to the API Evangelist network as a portfolio company of
-  Lightspeed Venture Partners and Mayfield.
+description: 'Alif Semiconductor is a fabless semiconductor company headquartered in Pleasanton, California with
+  engineering operations in Grenoble, France. It designs secure, AI/ML-enabled 32-bit microcontrollers and fusion
+  processors for edge computing, built around Arm Cortex-M55 cores and dedicated Arm Ethos-U55 Neural Processing
+  Units. Its Ensemble (E1C, E1, E3, E4, E5, E6, E7, E8) and Balletto (B1) product families target battery-powered
+  edge AI and generative-AI workloads, pairing hardware AI acceleration with autonomous aiPM power management and
+  a multilayered hardware Root of Trust security subsystem. Alif ships an embedded developer surface rather than
+  a public web API: a Zephyr-based SDK, CMSIS Device Family Packs, VS Code project templates, the Conductor configuration
+  tool, evaluation kits, datasheets, and reference manuals published across its support hub and GitHub organization.
+  Added to the API Evangelist network as a portfolio company of Lightspeed Venture Partners and Mayfield.'
 url: https://raw.githubusercontent.com/api-evangelist/alif-semiconductor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -99,6 +94,8 @@ common:
   url: https://alifsemi.com/terms-of-use/
 - type: PrivacyPolicy
   url: https://alifsemi.com/privacypolicy/
+- type: DeveloperPortal
+  url: https://alifsemi.com/support/
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
