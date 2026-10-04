@@ -48,7 +48,7 @@ tags:
 - Semiconductors
 - Microcontrollers
 - Edge AI
-- Machine-Learning
+- Machine Learning
 - Embedded Systems
 - IoT
 - Hardware
@@ -65,6 +65,7 @@ tags_raw:
 - Hardware
 - Arm Cortex-M55
 - Neural Processing Unit
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
